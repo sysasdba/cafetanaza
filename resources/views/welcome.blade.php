@@ -1,60 +1,64 @@
 <x-guest-layout>
     <!-- Main Hero Content -->
     <div class="container max-w-lg px-4 py-32 mx-auto text-left bg-center bg-no-repeat bg-cover md:max-w-none md:text-center
-     md:bg-cover md:bg-center"
-     style="background-image: url('{{ asset('images/home.jpg') }}')">
-     <h1
-            class="font-mono text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 md:text-center sm:leading-none lg:text-5xl">
+     md:bg-cover md:bg-center" style="background-image: url('{{ asset('images/home.jpg') }}')">
+        <h1 class="font-mono text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 md:text-center sm:leading-none lg:text-5xl">
             <span class="inline md:block">&nbsp;</span>
         </h1>
         <div class="flex flex-col items-center mt-12 text-center">
             <span class="relative inline-flex w-full md:w-auto">
-                <a href="{{ route('reservations.step.one') }}" type="hidden"
-                    class="inline-flex items-center justify-center px-6 py-2 text-base font-bold leading-6 text-white lg:w-full md:w-auto hover:bg-green-500 focus:outline-none">
+                <a href="{{ route('reservations.step.one') }}" type="hidden" class="inline-flex items-center justify-center px-6 py-2 text-base font-bold leading-6 text-white lg:w-full md:w-auto hover:bg-green-500 focus:outline-none">
                 </a>
         </div>
-</div>
+    </div>
 
     <!-- End Main Hero Content -->
 
     <!-- Terms & Con -->
     <section class="px-2 py-20 bg-white md:px-0">
-    <div class="mt-4 text-center" data-aos="fade-up" data-aos-duration="1000">
-        <h2 class="mb-12 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-            Terms & Conditions
-        </h2>
-        <div class="mt-4 text-center">
-            <style>
-                .justify-text {
-                    text-align: justify;
-                    text-justify: inter-word;
-                    margin-bottom: 1rem;
-                }
-                .amount {
-                    font-weight: bold;
-                }
-            </style>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Pemesanan tempat dapat dilakukan H-7 sebelum kedatangan.
-            </p>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Reservasi dilakukan untuk jumlah kunjungan minimal 10 orang dengan Minimum Charge <span class="amount">IDR 500.000</span>.
-            </p>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Khusus Ruangan Non-Smoking Area Minimum Charge <span class="amount">IDR 300.000</span>.
-            </p>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Khusus VIP's Room <span class="amount">IDR 1,5JT</span> / 3 hours up to 40-person.
-            </p>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Pembayaran DP (Down Payment) melalui scan QR DANA.
-            </p>
-            <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                ⭐ Mohon untuk tetap menjaga kebersihan dan kenyamanan pelanggan lain.
-            </p>
+        <div class="mt-4 text-center" data-aos="fade-up" data-aos-duration="1000">
+            <h2 class="mb-12 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+                Terms & Conditions
+            </h2>
+            <div class="mt-4 text-center">
+                <style>
+                    .justify-text {
+                        text-align: justify;
+                        text-justify: inter-word;
+                        margin-bottom: 1rem;
+                    }
+
+                    .amount {
+                        font-weight: bold;
+                    }
+                </style>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Reservasi tempat dapat dilakukan H-8 sebelum tanggal.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Reservasi dilakukan untuk jumlah kunjungan minimal 10 orang dengan Minimum Charge <span class="amount">IDR 500.000</span>.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Khusus Ruangan Non-Smoking Area Minimum Charge <span class="amount">IDR 300.000</span>.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Khusus VIP's Room <span class="amount">IDR 1,5JT</span> / 3 hours up to 40-person.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Pembayaran DP (Down Payment) melalui scan QR DANA.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Pembayaran DP (Down Payment) dapat di refund H-1 sebelum tanggal reservasi.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Pembayaran DP (Down Payment) akan dipotong dengan total harga pesanan menu di lokasi.
+                </p>
+                <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
+                    ⭐ Mohon untuk tetap menjaga kebersihan dan kenyamanan pelanggan lain.
+                </p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- About Us -->
     <section class="py-20 bg-gray-50">
