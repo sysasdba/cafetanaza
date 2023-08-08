@@ -33,7 +33,7 @@
                     }
                 </style>
                 <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
-                    ⭐ Reservasi tempat dapat dilakukan H-8 sebelum tanggal.
+                    ⭐ Reservasi tempat dapat dilakukan H-8 sebelum tanggal reservasi.
                 </p>
                 <p class="mx-auto text-base text-gray-500 sm:max-w-md lg:text-2xl md:max-w-3xl text-center justify-text">
                     ⭐ Reservasi dilakukan untuk jumlah kunjungan minimal 10 orang dengan Minimum Charge <span class="amount">IDR 500.000</span>.
